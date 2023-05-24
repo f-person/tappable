@@ -6,7 +6,8 @@ import 'tappable_theme.dart';
 import 'tappable_theme_data.dart';
 
 /// {@template tappable}
-/// A [GestureDetector] replacement that animates the scale of [child] when tapped.
+/// A [GestureDetector] replacement with additional features like tap animation,
+/// color overlay, and haptic feedback.
 /// {@endtemplate}
 class Tappable extends StatefulWidget {
   /// {@macro tappable}
